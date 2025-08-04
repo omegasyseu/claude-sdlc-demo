@@ -61,8 +61,8 @@ graph TB
     
     %% Coverage & Documentation
     IntTest --> Coverage[Coverage Report]
-    Coverage -->|> 80%| Docs[Claude Scribe<br/>Generate Docs]
-    Coverage -->|< 80%| Parallel2
+    Coverage -->|Above 80%| Docs[Claude Scribe<br/>Generate Docs]
+    Coverage -->|Below 80%| Parallel2
     
     %% Final Steps
     Docs --> License[License Check]
