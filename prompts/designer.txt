@@ -1,0 +1,1 @@
+Generate a Figma-ready UI layout with user interaction flows based on this PRD.

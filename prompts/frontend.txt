@@ -1,0 +1,1 @@
+Generate a component layout and tech stack proposal based on Figma design and PRD.
